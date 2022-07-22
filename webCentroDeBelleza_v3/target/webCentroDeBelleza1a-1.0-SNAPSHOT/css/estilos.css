@@ -1,0 +1,114 @@
+/*Para la pagina de admin*/
+body{
+    background-image: url('../imagenes/fondoadmin.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+    font-family: Arial;
+    overflow-y: scroll;
+
+}
+#encabezado1{
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 50px;
+}
+#cuadro{
+    width: 100px;
+    background: plum;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid plum;
+    border-right: 35px solid plum;
+    border-left: 35px solid plum;
+    overflow: hidden;
+    margin-top: 35px;
+    padding-left: 10px;
+    padding-right: 230px;
+    margin-left: 100px;
+}
+
+#titulo{
+    font-size: 30px;
+    font-family: fantasy;
+    padding-left: 65px;
+    
+}
+#img1{
+    margin-left: 70px;
+    margin-right: 20px;
+}
+#img{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+#boton{
+    width: 100px;
+    margin-left: 70px;
+}
+#perfil{
+    margin-right: 70px;
+}
+#encabezado2{
+    margin-left: 10px;
+    color: white;
+
+}
+#titulo1{
+    margin-left: 20px;
+    color: white;
+
+}
+#flujo{
+background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+box-shadow: 7px 13px 37px #000;
+    font-size: 20px;
+    
+    
+}
+
+#total{
+background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 50%;
+    font-size: 20px;  
+    box-shadow: 7px 13px 37px ;
+    margin: auto;
+}
+
+#full{
+background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+    font-size: 20px;  
+    box-shadow: 7px 13px 37px ;
+    margin: auto;
+    overflow: scroll;
+}
+
+.footer {
+  background-color: #434164;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  font-family: Arial;
+}
+thead{
+	background-color: #787878;
+
+
+}
+#titulo2{
+    
+}

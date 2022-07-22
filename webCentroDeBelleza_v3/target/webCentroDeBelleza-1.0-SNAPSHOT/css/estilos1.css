@@ -1,0 +1,99 @@
+/*CSS para Index*/
+body{
+    background-image: url('../imagenes/masaj1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+    font-family: Arial;
+    
+    transition: 5s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+            
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+            
+#menu ul li{
+    display: inline-block;
+}
+            
+#menu ul li a{
+    color: #E7E7E7;;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+            
+#menu ul li a:hover{
+    background-color: #FFAE52;
+    border-radius: 20px;
+}
+            
+.login{
+    float: right;  
+}
+                  
+.bienvenido{
+    font-family: Arial;
+    color: #E7E7E7;
+    font-size: 20px;
+}
+            
+.registre{
+    font-family: Arial;
+    color: #E7E7E7;
+    font-size: 100%;
+    margin: 5px 10px;
+}
+
+.New{
+    font-family: Playfair;
+    color: #F7F7F7;
+    font-size: 80px;
+    font-style: oblique;
+}
+                
+#inicio .botons {
+    width: 20%;
+    background: #FF933F;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+}
+            
+#inicio .botons:hover{
+    background-color: #FFAE52;
+}
+
+#inicio {
+    width: 800px;
+    padding: 5px;
+    float: right;
+    margin-left: 120px;
+    margin-top: 190px;
+    border-radius: 20px;
+    font-family:'calibri';
+    color: white;
+}
+
+@keyframes animate{
+0%{background-image:url('../imagenes/masaj2.png');}
+25%{background-image:url('../imagenes/masaj3.png');}
+50%{background-image:url('../imagenes/masaj4.png');}
+75%{background-image:url('../imagenes/masaj5.png');}
+100%{background-image:url('../imagenes/masaj1.png');}
+}

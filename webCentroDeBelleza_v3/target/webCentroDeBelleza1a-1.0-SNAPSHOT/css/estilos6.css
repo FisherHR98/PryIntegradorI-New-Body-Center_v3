@@ -1,0 +1,40 @@
+
+/*CSS para acerca de*/
+body{
+    background-image: url('../imagenes/fon4.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding: 10px;
+    font-family: Arial;
+    overflow-y: scroll;
+
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+            
+#menu ul li{
+    display: inline-block;
+}
+            
+#menu ul li a{
+    color: #E7E7E7;;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+            
+#menu ul li a:hover{
+    background-color: #FFAE52;
+    border-radius: 20px;
+}
+            
+.login{
+    float: right;  
+}
